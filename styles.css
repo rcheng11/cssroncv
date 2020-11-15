@@ -1,0 +1,68 @@
+/*
+Colors:
+Main: #454759
+Secondary: #242426
+Tertiary: #a88a1e
+Background: white
+
+Fonts:
+Headers: Playfair Display
+Body Text: Lora
+*/
+@media print {
+  .subsection-col{
+    float:none !important;
+    width: auto !important;
+    margin: none !important;
+    padding: none !important;
+  }
+}
+*{
+  color:#454759;
+  font-family: "Lora", sans-serif;
+}
+a:hover{
+  animation: link-hover 0.3s forwards;
+}
+@keyframes link-hover{
+  to{color:#a88a1e}
+}
+td{
+  padding: 10px;
+}
+h2{
+  color: #242426;
+  font-family: "Playfair Display", sans-serif;
+}
+li{
+  margin-bottom: 10px;
+}
+.header{
+  text-align: center;
+  overflow: auto;
+  width: 75%;
+  margin: auto;
+  padding: 20px;
+  border-bottom: 1px solid #a88a1e;
+}
+.header-img{
+  float: left;
+}
+.header-title{
+  color: #242426;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 50px;
+}
+.stars{
+  color:#a88a1e;
+}
+.subsection{
+  width: 75%;
+  margin: auto;
+}
+.subsection-col{
+  width: 40%;
+  margin: 5%;
+  float: left;
+  padding-bottom: 15px;
+}
